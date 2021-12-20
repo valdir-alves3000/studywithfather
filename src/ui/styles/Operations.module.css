@@ -1,0 +1,37 @@
+.operation {
+  margin-bottom: 2em;
+}
+
+.operation h2 {
+  font-size: 2.5em;
+  color: var(--text-color-1);
+  font-weight: bolder;
+  opacity: 0.6;
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: none;
+  border-bottom: 2px solid var(--bg-color-1);
+}
+
+.operationBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+  gap: 1.5em;
+}
+
+.operationBox .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  padding: 3em;
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5em;
+  position: relative;
+  background-color: var(--bg-color-2);
+  opacity: 0.5;
+}
+
+.operation .box:hover {
+  opacity: 1;
+}
